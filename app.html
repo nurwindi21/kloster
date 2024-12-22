@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kloster - Your Personal Toilet Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #D7CFFF, #FFFFFF);
+            max-width: 1200px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        .header img {
+            width: 20px; /* Adjust the logo size */
+            height: auto;
+            margin-right: 10px;
+        }
+        .header h1 {
+            color: #333;
+            font-size: 1.5rem;
+            margin: 0;
+        }
+        p {
+            margin: 10px 0;
+            font-size: 3rem;
+        }
+        .screenshots img {
+            left: 40%;
+            width: 200px; /* Adjust phone size */
+            height: auto;
+            position: relative;
+            z-index: 1;
+        }
+        .screenshots img:nth-child(2) {
+            z-index: 2; /* Middle phone appears on top */
+            transform: translateY(-50px); /* Slightly lifted */
+        }
+        .screenshots img:nth-child(3) {
+            z-index: 1;
+        }
+        .button {
+        background-color: #efecff;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        }
+
+    </style>
+    <link rel="shortcut icon" href="Picture/LOGO_WHITE_KLOSTER.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="Picture/LOGO_WHITE_KLOSTER.png" alt="Kloster Logo">
+            <h1>Kloster</h1>
+        </div>
+        <p>Your Personal</p>
+        <p><strong>Toilet guide</strong></p>
+        <div>
+            <button class="button button4 ">Gray</button>
+            <button class="button button4">Gray</button>
+        </div>
+        <div class="screenshots">
+            <img src="Picture/foto1.png" alt="Screenshot 1">
+            <img src="Picture/foto2.png" alt="Screenshot 2">
+            <img src="Picture/foto3.png" alt="Screenshot 3">
+        </div>
+    </div>
+</body>
+</html>
